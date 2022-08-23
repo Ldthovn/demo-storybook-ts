@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import WeeklySongListItem from "./components/WeeklySongListItem/WeeklySongListItem";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <WeeklySongListItem
+        order="01"
+        title="Em Không Thể"
+        singer="Tiên Tiên, Touliver"
+        viewCount={3000}
+      />
     </div>
   );
 }
