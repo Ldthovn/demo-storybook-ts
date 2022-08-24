@@ -9,7 +9,6 @@ export default {
 const Template = (args) => <WeeklySongListItem {...args} />;
 
 export const Default = Template.bind({});
-console.log("Template", Template);
 
 Default.args = {
   order: "01",
